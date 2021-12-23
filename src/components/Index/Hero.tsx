@@ -6,7 +6,7 @@ const Hero = () => {
           <img
             src="/logo.svg"
             alt="ICES"
-            className="w-48 mx-auto mb-4 lg:mb-6"
+            className="w-48 mx-auto mb-4 transition duration-500 ease-in-out transform lg:mb-6 hover:scale-110 hover:-translate-y-1"
           />
           <h2 className="mb-2 text-3xl font-bold text-gray-800 md:text-4xl md:mb-4">
             <span className="text-pink-600">I</span>nternet{" "}
