@@ -6,13 +6,13 @@ const Nav = () => {
         <img src="/assets/images/logo_title.png" className="h-12" alt="ICES" />
       </a>
       <nav className="flex items-center space-x-4">
-        <a href="#" className="flex items-center space-x-1 hover:text-gray-500">
+        <a href="#" className="flex items-center space-x-1 hover:text-blue-600">
           <span>Doc</span>
         </a>
-        <a href="#" className="flex items-center space-x-1 hover:text-gray-500">
+        <a href="#" className="flex items-center space-x-1 hover:text-blue-600">
           <span>Twitter</span>
         </a>
-        <a href="#" className="flex items-center space-x-1 hover:text-gray-500">
+        <a href="#" className="flex items-center space-x-1 hover:text-blue-600">
           <span>Discord</span>
         </a>
         <a
