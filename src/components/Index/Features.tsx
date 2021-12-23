@@ -76,10 +76,17 @@ const Features = () => {
     <div className="px-6 py-16 text-gray-600 bg-white lg:px-8 lg:py-20 xl:pb-32 xl:pt-24">
       <div className="max-w-screen-xl mx-auto text-center">
         <h2 className="text-2xl font-medium text-gray-800 sm:text-3xl md:text-4xl">
-          Amazing Features
+          <span className="text-yellow-600">Amazing</span> Features
         </h2>
-        <p className="mt-2 text-lg text-gray-600 lg:text-xl">
-          We are committed to building the best Event Storage & Analysis service
+        <p className="flex items-center justify-center mt-2 text-lg text-gray-600 lg:text-xl">
+          We are committed to building the{" "}
+          <span className="px-2 text-orange-600">BEST</span>Event Storage &
+          Analysis service on{" "}
+          <img
+            src="assets/images/dfinity.svg"
+            alt="Dfinity"
+            className="h-4 px-2"
+          />
         </p>
       </div>
       <div className="max-w-screen-xl mx-auto mt-12 space-y-12 md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-12 xl:gap-y-20 lg:mt-20 md:space-y-0">
