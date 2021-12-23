@@ -1,0 +1,24 @@
+@import url('/font/stylesheet.css');
+
+@tailwind base;
+
+a {
+  /* @apply text-blue-600; */
+  color: #292A2E;
+}
+
+/* a:hover {
+  @apply border-b-2 border-blue-700;
+} */
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
