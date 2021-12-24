@@ -1,0 +1,15 @@
+
+.navbar {
+    @apply fixed inset-x-0 top-0 box-border z-10 w-full text-gray-600  border-white h-20 md:bg-transparent border-opacity-10;
+}
+
+.container {
+    background: #fff;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.1);
+    /* @apply flex items-center; */
+}
+
+
+.logo-box{
+    @apply flex items-center flex-shrink-0;
+}

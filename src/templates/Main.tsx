@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 import Footer from "../components/Footer";
-import Nav from "../components/Nav";
+import Navbar from "../components/Navbar";
 
 type IMainProps = {
   meta: ReactNode;
@@ -12,7 +12,7 @@ const Main = (props: IMainProps) => (
   <main className="font-medium text-gray-700 bg-white">
     {props.meta}
 
-    <Nav />
+    <Navbar />
 
     {props.children}
 

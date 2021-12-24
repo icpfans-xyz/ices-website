@@ -78,14 +78,14 @@ const Features = () => {
         <h2 className="text-2xl font-medium text-gray-800 sm:text-3xl md:text-4xl">
           <span className="text-yellow-600">Amazing</span> Features
         </h2>
-        <p className="flex items-center justify-center mt-2 text-lg text-gray-600 lg:text-xl">
+        <p className="flex flex-col items-center justify-center mt-2 text-lg leading-8 text-gray-600 lg:text-xl md:flex-row">
           We are committed to building the{" "}
           <span className="px-2 text-orange-600">BEST</span>Event Storage &
           Analysis service on{" "}
           <img
             src="assets/images/dfinity.svg"
             alt="Dfinity"
-            className="h-4 px-2"
+            className="h-4 px-2 my-4"
           />
         </p>
       </div>

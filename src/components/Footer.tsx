@@ -2,9 +2,9 @@ import { Like } from "@icon-park/react";
 
 const Footer = () => {
   return (
-    <footer className="py-12 text-gray-700 bg-gray-100 xl:py-14">
+    <footer className="py-12 text-gray-700 bg-gray-100 xl:py-12">
       <div className="flex flex-col items-center max-w-screen-xl mx-auto">
-        <div className="flex items-center mt-4 text-md">
+        <div className="flex items-center text-md">
           Made by{" "}
           <span className="px-2">
             <Like theme="filled" size="24" fill="#F15A24" strokeWidth={3} />

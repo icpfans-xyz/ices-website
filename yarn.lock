@@ -107,6 +107,16 @@
   resolved "https://registry.npmmirror.com/@hapi/hoek/download/@hapi/hoek-9.2.1.tgz#9551142a1980503752536b5050fd99f4a7f13b17"
   integrity sha1-lVEUKhmAUDdSU2tQUP2Z9KfxOxc=
 
+"@headlessui/react@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.npmmirror.com/@headlessui/react/download/@headlessui/react-1.4.2.tgz#87e264f190dbebbf8dfdd900530da973dad24576"
+  integrity sha512-N8tv7kLhg9qGKBkVdtg572BvKvWhmiudmeEpOCyNwzOsZHCXBtl8AazGikIfUS+vBoub20Fse3BjawXDVPPdug==
+
+"@heroicons/react@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmmirror.com/@heroicons/react/download/@heroicons/react-1.0.5.tgz#2fe4df9d33eb6ce6d5178a0f862e97b61c01e27d"
+  integrity sha1-L+TfnTPrbObVF4oPhi6XthwB4n0=
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.npmmirror.com/@humanwhocodes/config-array/download/@humanwhocodes/config-array-0.5.0.tgz?cache=0&sync_timestamp=1635880863762&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40humanwhocodes%2Fconfig-array%2Fdownload%2F%40humanwhocodes%2Fconfig-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
