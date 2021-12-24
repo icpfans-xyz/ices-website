@@ -26,7 +26,7 @@ const Partnets = () => {
       name: "ICPMeet",
     },
     {
-      id: "me",
+      id: "astrome",
       name: "ME",
     },
     {
