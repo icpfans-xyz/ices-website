@@ -8,5 +8,5 @@ export const AppConfig = {
 export const Links = {
   doc: "https://doc.ices.one",
   twitter: "https://twitter.com/icesHQ",
-  discord: "https://discord.gg/pFpPafbt",
+  discord: "https://discord.gg/b2SGPDHh",
 };
