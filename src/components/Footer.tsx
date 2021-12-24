@@ -2,7 +2,7 @@ import { Like } from "@icon-park/react";
 
 const Footer = () => {
   return (
-    <footer className="py-12 text-gray-700 bg-gray-100 xl:py-12">
+    <footer className="py-12 text-gray-700 bg-white xl:py-12">
       <div className="flex flex-col items-center max-w-screen-xl mx-auto">
         <div className="flex items-center text-md">
           Made by{" "}
