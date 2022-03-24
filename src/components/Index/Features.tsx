@@ -16,8 +16,7 @@ type IFeatureItemProps = {
 const FeatureData = [
   {
     title: "Open Source",
-    description:
-      "All code is open source, follow the MIT protocol, feel free to use",
+    description: "All code is open source, MIT protocol, feel free to use",
     icon: Github,
   },
   {
@@ -37,14 +36,12 @@ const FeatureData = [
   },
   {
     title: "GraphQL/Restful API",
-    description:
-      "More customized and fast query by synchronizing canister's data to database",
+    description: "More customized and fast query from off-chain data",
     icon: Api,
   },
   {
-    title: "Explorer",
-    description:
-      "Public explorer can easily query canister related event logs ",
+    title: "Explorer UI",
+    description: "ICES explorer can easily query canister related event logs ",
     icon: Analysis,
   },
 ];
@@ -64,7 +61,7 @@ const Features = () => {
         <h3 className="mb-2 text-xl font-semibold text-gray-800">
           {props.title}
         </h3>
-        <p className="w-10/12 mx-auto text-gray-700 text-md">
+        <p className="w-10/12 mx-auto text-sm text-gray-700">
           {props.description}
         </p>
       </div>
