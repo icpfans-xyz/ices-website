@@ -7,6 +7,7 @@ import Styles from "./navbar.module.css";
 const navigation = [
   { name: "Doc", href: Links.doc },
   { name: "Twitter", href: Links.twitter },
+  { name: "Telegram", href: Links.telegram },
   { name: "Discord", href: Links.discord },
 ];
 
@@ -42,10 +43,10 @@ export default function Navbar() {
                   ))}
 
                   <a
-                    href="#"
+                    href="https://explorer.ices.one/"
                     className="inline-block px-5 py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-pink-600 to-yellow-600 hover:from-blue-500 hover:to-blue-700 "
                   >
-                    Dashboard (Coming Soon)
+                    Explorer beta
                   </a>
                 </div>
               </div>
@@ -80,7 +81,7 @@ export default function Navbar() {
                 href="#"
                 className="inline-block px-5 py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-pink-600 to-yellow-600 hover:from-blue-500 hover:to-blue-700 "
               >
-                Dashboard (Coming Soon)
+                Explorer beta
               </a>
             </div>
           </Disclosure.Panel>

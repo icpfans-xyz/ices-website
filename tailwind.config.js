@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Ubuntu"],
+        sans: ["Roboto Mono"],
       },
       colors: {
         gray: {

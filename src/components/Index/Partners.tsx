@@ -82,13 +82,9 @@ const Partnets = () => {
   return (
     <div className="px-6 pt-12 pb-20 text-gray-600 bg-gray-50 lg:px-8">
       <div className="max-w-screen-xl mx-auto">
-        <h2 className="text-2xl font-medium text-center text-gray-700 sm:text-3xl md:text-4xl">
-          Who use ICES
+        <h2 className="text-2xl font-medium text-center text-gray-800 sm:text-3xl md:text-4xl">
+          Partners
         </h2>
-        <p className="mt-2 text-lg text-center text-gray-600 lg:text-xl">
-          Thank you to these early ICES supporters for joining us in this
-          long-term endeavor.
-        </p>
       </div>
       <div className="max-w-screen-xl mx-auto mt-12 space-y-12 md:grid-cols-2 md:grid xl:grid-cols-3 md:gap-12 md:space-y-0">
         {PartnerList.map((item) => (

@@ -22,8 +22,7 @@ const FeatureData = [
   },
   {
     title: "Free To Use",
-    description:
-      "We will build our product based on ICES, part of the revenue generated will be donated to ICES",
+    description: "Don't worry about price, it's Free",
     icon: SmilingFace,
   },
   {
@@ -37,15 +36,15 @@ const FeatureData = [
     icon: CloudStorage,
   },
   {
-    title: "Graph/Restful API Query",
+    title: "GraphQL/Restful API",
     description:
       "More customized and fast query by synchronizing canister's data to database",
     icon: Api,
   },
   {
-    title: "Dashboard",
+    title: "Explorer",
     description:
-      "Public dashboard can easily query canister related event records ",
+      "Public explorer can easily query canister related event logs ",
     icon: Analysis,
   },
 ];
@@ -65,7 +64,7 @@ const Features = () => {
         <h3 className="mb-2 text-xl font-semibold text-gray-800">
           {props.title}
         </h3>
-        <p className="w-10/12 mx-auto text-gray-600 text-md">
+        <p className="w-10/12 mx-auto text-gray-700 text-md">
           {props.description}
         </p>
       </div>
@@ -76,18 +75,8 @@ const Features = () => {
     <div className="px-6 py-16 text-gray-600 bg-white lg:px-8 lg:py-20 xl:pb-32 xl:pt-24">
       <div className="max-w-screen-xl mx-auto text-center">
         <h2 className="text-2xl font-medium text-gray-800 sm:text-3xl md:text-4xl">
-          <span className="text-yellow-600">Amazing</span> Features
+          Features
         </h2>
-        <p className="flex flex-col items-center justify-center mt-2 text-lg leading-8 text-gray-600 lg:text-xl md:flex-row">
-          We are committed to building the{" "}
-          <span className="px-2 text-orange-600">BEST</span>Event Storage &
-          Analysis service on{" "}
-          <img
-            src="assets/images/dfinity.svg"
-            alt="Dfinity"
-            className="h-4 px-2 my-4"
-          />
-        </p>
       </div>
       <div className="max-w-screen-xl mx-auto mt-12 space-y-12 md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-12 xl:gap-y-20 lg:mt-20 md:space-y-0">
         {FeatureData.map((item) => (

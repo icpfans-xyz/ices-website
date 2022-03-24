@@ -9,4 +9,5 @@ export const Links = {
   doc: "https://doc.ices.one",
   twitter: "https://twitter.com/icesHQ",
   discord: "https://discord.gg/b2SGPDHh",
+  telegram: "https://t.me/icesone",
 };
